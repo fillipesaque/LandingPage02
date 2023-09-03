@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Righteous&family=Sarala&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+}
+
+.btn-header {
+  color: #FFF2E7;
+  font-family: Sarala;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  transition: 1s;
+}
+
+.btn-header:hover {
+  border-bottom: solid 2px #FFF2E7;
+}
+
+.main-container {
+  border-top: solid 1px #FFF2E7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.conteudo-main-01 {
+  margin-top: 40px;
+}
+
+.titulo-conteudo-main {
+  color: #FFF2E7;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 10px;
+}
+
+.p-conteudo-main {
+  color: #ECD6C4;
+  font-family: Sarala;
+  font-weight: 400;
+  line-height: 10px;
+}
+
+.btn-conteudo-main {
+  color: #2F2325;
+  font-family: Sarala;
+  font-weight: 400;
+  padding: 15px;
+  border-radius: 20px;
+  background: #ECD6C4;
+  border-color: transparent;
+  box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 15px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.btn-conteudo-main:hover {
+  opacity: 1;
+}
+
+.conteudo-main-02 img {
+  width: 350px;
+  height: auto;
+}
+
+.main-container-02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-02 {
+  padding-top: 50px;
+  border-top: solid 1px #FFF2E7;
+  color: #FFF2E7;
+  text-align: center;
+  font-family: Righteous;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.p-02 {
+  color: #ECD6C4;
+  text-align: center;
+  font-family: Sarala;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer {
+  padding: 32px;
+  border-top: solid 1px #FFF2E7;
+  margin-top: 30px;
+}
+
+.img-footer {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+}
+
+@media screen and (max-width: 426px) {
+  .header {
+    flex-direction: column;
+  }
+  .menu-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .p-conteudo-main {
+    width: 150px;
+    line-height: 20px;
+  
+  }
+  .p-02 {
+    width: 250px;
+  }
+  .conteudo-main-01 {
+    display: block;
+    margin: 0 auto;
+  }
+  .conteudo-main-02 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
